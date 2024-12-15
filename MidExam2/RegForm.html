@@ -1,0 +1,23 @@
+<html>
+<head>
+    <title>Registration</title>
+</head>
+<body>
+    <h1>Registration</h1>
+    <form method="post">
+        <label for="id">ID:</label><br>
+        <input type="text" id="id" name="id" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+        <label for="confirm_password">Confirm Password:</label><br>
+        <input type="password" id="confirm_password" name="confirm_password" required><br>
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br>
+        <label for="user_type">User Type:</label><br>
+        <input type="radio" id="user" name="user_type" value="User" required>User
+        <input type="radio" id="admin" name="user_type" value="Admin" required>Admin<br><br>
+        <button type="submit">Sign Up</button>
+    </form>
+    <a href="Login.php">Sign In</a>
+</body>
+</html>
